@@ -3,10 +3,10 @@
 namespace Camya\Filament;
 
 use Camya\Laravel\Importer\ImportManager;
-use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class FilamentImportInlineServiceProvider extends PluginServiceProvider
+class FilamentImportInlineServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
