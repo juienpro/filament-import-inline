@@ -288,8 +288,6 @@
 
     </div>
 
-    @if (($suffixAction = $getSuffixAction()) && (! $suffixAction->isHidden()))
-        {{ $suffixAction }}
-    @endif
+  
 
 </x-dynamic-component>
