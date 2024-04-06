@@ -271,7 +271,7 @@
                             @if($getDataHelperLinkLabel())
                                 <span>{{ $getDataHelperLinkLabel() }}</span>
                             @endif
-                            <x-heroicon-arrow-top-right-on-square class="w-4 h-4"/>
+                            
 
                         </a>
 
