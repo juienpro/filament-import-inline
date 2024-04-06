@@ -1,4 +1,4 @@
-<x-forms::field-wrapper
+<x-dynamic-component
     :component="$getFieldWrapperView()"
     :id="$getId()"
     :label="$getLabel()"
@@ -292,4 +292,4 @@
         {{ $suffixAction }}
     @endif
 
-</x-forms::field-wrapper>
+</x-dynamic-component>
